@@ -1,0 +1,48 @@
+@media screen {
+
+	html {
+		width: 100%;
+
+	}
+
+    body{
+
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+
+    background: #F0F0F3;
+    }
+
+    .main h1{
+        position: absolute;
+        width: 498px;
+        height: 106px;
+        left: 229px;
+        top: 56px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 61px;
+        line-height: 71px;
+        color: #FFFFFF;
+    }
+
+    .main h3{
+        position: absolute;
+        width: 220px;
+        height: 42px;
+        left: 1143px;
+        top: 73px;
+
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+
+    color: #FFFFFF;
+    }
+}
