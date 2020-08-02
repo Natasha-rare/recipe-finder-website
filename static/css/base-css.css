@@ -5,7 +5,7 @@
 	}
 
     body{
-        position: relative;
+
         overflow: auto; /*прокрутка при необходимости*/
         width: 1920px;
         height: 1080px;
@@ -17,7 +17,6 @@
         font-family: 'Roboto';
         font-style: normal;
         color: #FFFFFF;
-
     }
 
 
@@ -26,7 +25,7 @@
         height: 106px;
         left: 229px;
         top: 56px;
-
+        position: absolute;
         font-weight: 900;
         font-size: 61px;
         line-height: 71px;
@@ -34,15 +33,79 @@
     }
 
     .main h3{
-        width: 220px;
-        height: 42px;
+        position: absolute;
         left: 1143px;
         top: 73px;
 
-        font-weight: 500;
+        font-weight: normal;
         font-size: 30px;
         line-height: 35px;
-        text-align: center;
+    }
+
+    .btn {
+	position: relative;
+    overflow: hidden;
+    z-index: 1;
+	padding: 10px 40px;
+	margin: 0 20px;
+	font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+	background: #D88D0A;
+	border-width: 0;
+    box-shadow: 5px 5px 0 #532831;
+	outline: none;
+	cursor: pointer;
+    transition: 1.5s;
+}
+
+.btn:before,
+.btn:after {
+	content: "";
+	position: absolute;
+    height: 200px;
+    left: -50%;
+    margin-top: -100px;
+    top: 50%;
+    width: 200px;
+	border-radius: 50%;
+    opacity: 0.3;
+    z-index: -1;
+    transform: scale(0);
+}
+.btn:before {
+	background: #ffeede;
+    transition: .8s ease-out;
+}
+.btn:after {
+    transition: .4s ease-in .3s;
+}
+.btn:hover {
+    color: #532831;
+}
+.btn:hover:before,
+.btn:hover:after{
+    opacity: 1;
+    transform: scale(4);
+}
+
+    a{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 257px;
+    height: 64px;
+    left: 1019px;
+    top: 680px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 41px;
     }
 }
 
