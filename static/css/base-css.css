@@ -12,6 +12,7 @@
         background: #F0F0F3;
     }
 
+
     .main{
         position: absolute;
         font-family: 'Roboto';
@@ -42,55 +43,74 @@
         line-height: 35px;
     }
 
-    .btn {
-	position: relative;
-    overflow: hidden;
-    z-index: 1;
-	padding: 10px 40px;
-	margin: 0 20px;
-	font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: 600;
-    line-height: 30px;
-    color: white;
-    font-size: 15px;
-    text-transform: uppercase;
-	background: #D88D0A;
-	border-width: 0;
-    box-shadow: 5px 5px 0 #532831;
-	outline: none;
-	cursor: pointer;
-    transition: 1.5s;
-}
 
-.btn:before,
-.btn:after {
-	content: "";
-	position: absolute;
-    height: 200px;
-    left: -50%;
-    margin-top: -100px;
-    top: 50%;
-    width: 200px;
-	border-radius: 50%;
-    opacity: 0.3;
-    z-index: -1;
-    transform: scale(0);
-}
-.btn:before {
-	background: #ffeede;
-    transition: .8s ease-out;
-}
-.btn:after {
-    transition: .4s ease-in .3s;
-}
-.btn:hover {
-    color: #532831;
-}
-.btn:hover:before,
-.btn:hover:after{
-    opacity: 1;
-    transform: scale(4);
-}
+
+    button {
+        font-family: Roboto;
+        font-style: normal;
+        border: none;
+        outline: none;
+        padding: 10px 20px;
+        color: #D88D0A;
+        font-weight: normal;
+        margin-bottom: 50px;
+        background: #FFFFFF;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 50.5px;
+    }
+
+    .container{
+        height:100%;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    button:hover{
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    /*button:before,
+    button:after {
+        content: "";
+        position: absolute;
+        height: 200px;
+        left: -50%;
+        margin-top: -100px;
+        top: 50%;
+        width: 300px;
+        border-radius: 50%;
+        opacity: 0.3;
+        z-index: -1;
+        transform: scale(0);
+    }
+    button:before {
+        background: #facf84;
+        transition: .7s ease-out;
+    }
+    button:after {
+        transition: .4s ease-in .3s;
+    }
+
+    button:hover:before,
+    button:hover:after{
+        opacity: 1;
+        transform: scale(4);
+    }*/
+
+    table {
+        width: 70%;
+        height: 20%;
+        margin: auto;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    th {
+    font-family: 'Roboto';
+    font-size: 16pt;
+    }
 
     a{
     display: flex;
