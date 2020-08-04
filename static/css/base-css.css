@@ -1,17 +1,16 @@
 @media screen {
 
 	html {
-		width: 100%;
+		width: 992px;
 	}
 
     body{
-
         overflow: auto; /*прокрутка при необходимости*/
-        width: 1152px;
+        width: 992px;
         height: 3000px;
         background: #F0F0F3;
+        margin: auto;
     }
-
 
     .main{
         position: absolute;
