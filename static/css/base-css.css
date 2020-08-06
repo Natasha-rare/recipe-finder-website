@@ -2,11 +2,25 @@
 
 	html {
 		width: 1152px;
+		overflow-x: hidden;
+        overflow-y: auto;
 	}
 
+    footer {
+    top: 100%;
+    font-family: 'Bellota Text', cursive;
+    font-size: 10pt;
+    text-align: center;
+    color: black;
+    margin-right: 450px;
+    position: absolute;
+    background:none;
+    }
+
     body{
-        overflow: auto; /*прокрутка при необходимости*/
-        width: 1152px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 100%;
         height: 1800px;
         background: #F0F0F3;
         margin: auto;
